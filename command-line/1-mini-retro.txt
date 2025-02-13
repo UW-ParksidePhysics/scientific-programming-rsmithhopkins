@@ -1,17 +1,18 @@
-Partner:
+Partner: Sophia
 
 What Went Well
 ---
-
+Critical thinking, Communication, Problem solving and adaptation
 
 What Would Make Next Time 1% Better
 ---
-* Focus:
+Becoming more familiar with the coding terms and symbols and what they mean
+* Focus: We were focused the whole time
 
-* Communication:
+* Communication: I just need to specify if there are capital letters or spaces more often to reduce confusion.
 
-* Pacing:
+* Pacing: Pacing was as fast as it could go with my current coding knowledge so becoming more familiar with the terms would help me become faster paced.
 
-* Division of responsibility
+* Division of responsibility: Divided well. Able to stick to roles of driver and navigator
 
-* Code quality:
+* Code quality: The code worked so Id say the quality is good.
