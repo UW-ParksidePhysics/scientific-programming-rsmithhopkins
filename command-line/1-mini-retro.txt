@@ -16,4 +16,3 @@ Becoming more familiar with the coding terms and symbols and what they mean
 * Division of responsibility: Divided well. Able to stick to roles of driver and navigator
 
 * Code quality: The code worked so Id say the quality is good.
-
