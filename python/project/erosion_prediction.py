@@ -1,5 +1,5 @@
 """
-This code is designed to predict the future erosion rates of the remediated ravine at hawthorn Hollow
+This code is designed to predict the future erosion rates of the remediated ravine at Hawthorn Hollow
 """
 #### RENAME from erosion_prediction.py to (your_project_short_name).py
 # File structure
