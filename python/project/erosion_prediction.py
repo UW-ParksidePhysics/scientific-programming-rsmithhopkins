@@ -1,4 +1,7 @@
-#### RENAME from project.py to (your_project_short_name).py
+"""
+This code is designed to predict the future erosion rates of the remediated ravine at hawthorn Hollow
+"""
+#### RENAME from erosion_prediction.py to (your_project_short_name).py
 # File structure
 # 1. Commented paragraph describing project ~ 100-200 words
 # 2. Module imports that are used in multiple functions
