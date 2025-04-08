@@ -1,17 +1,18 @@
-Partner:
+Partner: Lindsey
 
 What Went Well
 ---
+Communication went well
 
-
-What Would Make Next Time 1% Better
+What Would Make Next Time 1% Better: Being more familiar with the coding functions.
 ---
 * Focus:
-
+We stayed focused
 * Communication:
-
+Communication went well
 * Pacing:
-
+The pacing was fine but would have gone faster if I had been more familiar with the code
 * Division of responsibility
-
+Division of responsibility went well
 * Code quality:
+I could have become more familiar with the code prior and Lindsey has been out

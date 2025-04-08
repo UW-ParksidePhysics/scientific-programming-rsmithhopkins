@@ -1,17 +1,18 @@
-Partner:
+Partner: Ashton
 
 What Went Well
 ---
-
+Communication went very well
 
 What Would Make Next Time 1% Better
 ---
-* Focus:
+If I became for familiar with the command line
+* Focus: Our focus was great.
 
-* Communication:
+* Communication: Good
 
-* Pacing:
+* Pacing: Started slow good now
 
-* Division of responsibility
+* Division of responsibility: Good
 
-* Code quality:
+* Code quality: Seemed alright
