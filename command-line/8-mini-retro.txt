@@ -1,1 +1,17 @@
+Partner: Carter
 
+What Went Well
+---
+Communication went well
+
+What Would Make Next Time 1% Better
+---
+* Focus: We stayed focused
+
+* Communication: Went well
+
+* Pacing: Our pacing was fine
+
+* Division of responsibility: The division of responsibility was equal
+
+* Code quality: It worked! So it went well
