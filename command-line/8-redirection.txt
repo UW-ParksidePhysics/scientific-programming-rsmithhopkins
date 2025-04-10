@@ -1,1 +1,22 @@
-
+Mac619948:~ smith518$ cd
+Mac619948:~ smith518$ touch greeting.txt
+Mac619948:~ smith518$ echo "Welcome to lesson 8" > greeting.txt
+Mac619948:~ smith518$ echo "Let's learn about redirection." >> greeting.txt
+Mac619948:~ smith518$ cat greeting.txt
+Welcome to lesson 8
+Let's learn about redirection.
+Mac619948:~ smith518$ rm greeting.txt
+Mac619948:~ smith518$ echo "File 1" > list.txt
+Mac619948:~ smith518$ echo "File 2" >> list.txt
+Mac619948:~ smith518$ rm list.txt
+Mac619948:~ smith518$ touch data.txt
+Mac619948:~ smith518$ echo "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum." > data.txt
+Mac619948:~ smith518$ wc -w data.txt > word_count.txt
+Mac619948:~ smith518$ echo "There are 69 words in the Lorem Ipsum text." > Word_count.txt
+Mac619948:~ smith518$ cat word_count.txt
+There are 69 words in the Lorem Ipsum text.
+Mac619948:~ smith518$ ls > directory_list.txt
+Mac619948:~ smith518$ date >> directory_list.txt
+Mac619948:~ smith518$ rm data.txt
+Mac619948:~ smith518$ rm word_count.txt
+Mac619948:~ smith518$ rm directory_list.txt
