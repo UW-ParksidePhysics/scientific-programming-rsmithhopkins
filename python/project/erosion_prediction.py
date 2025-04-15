@@ -3,34 +3,60 @@ This code is designed to predict the future erosion rates of the remediated ravi
 """
 __author__ = "Rileigh Smith-Hopkins"
 
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 
+def plot_graph_with_best_fit():
+    # Define the data points for all sets
+    weeks = np.array(list(range(1, 11)))  # 10 weeks (Week 1 to Week 10)
+    values_set_1 = np.array([2, 2.25, 2.375, 3.0625, 2.625, 2.75, 2.75, 2.5, 2.1875, 3])
+    values_set_2 = np.array([2, 2, 2, 1.875, 2, 2, 2.5, 2, 1.9375, 1.875])
+    values_set_3 = np.array([2, 2.75, 3, 2.875, 2.875, 3, 3.875, 2.25, 2.75, 2.875])
+    values_set_4 = np.array([2, 2.625, 2.5, 2.5, 2.75, 2.375, 2.75, 2.875, 2.875, 2.5])
 
-def test_plot():
+    # Compute best-fit lines for each dataset
+    fit_1 = np.polyfit(weeks, values_set_1, 1)  # Linear fit (degree 1)
+    fit_2 = np.polyfit(weeks, values_set_2, 1)
+    fit_3 = np.polyfit(weeks, values_set_3, 1)
+    fit_4 = np.polyfit(weeks, values_set_4, 1)
 
-    # Line
-    intercepts = [4, 3]
-    x_bounds = np.array([-3, 8])
-    x_values = np.linspace(x_bounds[0], x_bounds[1], 100)
-    # y_bounds = -intercepts[1] * x_bounds / intercepts[0] + intercepts[1]
-    y_values = -intercepts[1] * x_values / intercepts[0] + intercepts[1]
+    # Generate y-values for the best-fit lines
+    best_fit_1 = np.polyval(fit_1, weeks)
+    best_fit_2 = np.polyval(fit_2, weeks)
+    best_fit_3 = np.polyval(fit_3, weeks)
+    best_fit_4 = np.polyval(fit_4, weeks)
 
-    # Circle
-    radius = intercepts[0]
-    angles = np.linspace(0, 2 * np.pi, 100)
-    circle_xs = radius * np.cos(angles)
-    circle_ys = radius * np.sin(angles)
+    # Create the plot
+    plt.figure(figsize=(12, 7))
+    plt.plot(weeks, values_set_1, marker='o', linestyle='-', color='b', label="USL plot 1")
+    plt.plot(weeks, best_fit_1, color='b', linestyle='--', label="Best Fit 1")
 
-    plt.plot(x_values, y_values)
-    plt.plot(circle_xs, circle_ys)
+    plt.plot(weeks, values_set_2, marker='s', linestyle='--', color='r', label="USL plot 2")
+    plt.plot(weeks, best_fit_2, color='r', linestyle='--', label="Best Fit 2")
+
+    plt.plot(weeks, values_set_3, marker='^', linestyle=':', color='g', label="USL plot 3")
+    plt.plot(weeks, best_fit_3, color='g', linestyle='--', label="Best Fit 3")
+
+    plt.plot(weeks, values_set_4, marker='d', linestyle='-', color='m', label="USL plot 4")
+    plt.plot(weeks, best_fit_4, color='m', linestyle='--', label="Best Fit 4")
+
+    # Add labels and title
+    plt.xlabel('Weeks')
+    plt.ylabel('Inches')
+    plt.title('Comparison of USL Plot Data Sets With Best Fit Lines')
+    plt.xticks(weeks)
+    plt.grid(True, linestyle='--', alpha=0.7)
+    plt.legend()
+
+    # Adjust the y-axis extent to account for the 12 inches as pin length
+    plt.ylim(0, 12)  # Set the y-axis to range from 0 to 12
+
+    # Plotting the graph with best fit lines
+    plt.tight_layout()
     plt.show()
 
-    return
-
-
 if __name__ == '__main__':
-    test_plot()
+    plot_graph_with_best_fit()
 #### RENAME from erosion_prediction.py to (your_project_short_name).py
 # File structure
 # 1. Commented paragraph describing project ~ 100-200 words
