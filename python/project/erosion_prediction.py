@@ -211,7 +211,6 @@ def transect_dsr_best_fit_data():
 
 if __name__ == '__main__':
     transect_dsr_best_fit_data()
-
 #### RENAME from erosion_prediction.py to (your_project_short_name).py
 # File structure
 # 1. Commented paragraph describing project ~ 100-200 words
