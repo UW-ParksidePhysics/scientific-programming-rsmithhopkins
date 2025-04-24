@@ -14,3 +14,4 @@ Mac619948:~ smith518$ gcc hypotenuse.o calculate_pythagorean_triples.o -lm -o tr
 Mac619948:~ smith518$ git add triples_c.x hypotenuse.c calculate_puthagorean_triple.c
 fatal: not a git repository (or any of the parent directories): .git
 Mac619948:~ smith518$
+
