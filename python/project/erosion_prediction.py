@@ -17,11 +17,12 @@ def transect_usl_best_fit_data():
     values_set = np.array([values_set_1, values_set_2, values_set_3, values_set_4])
 
     # Computing best-fit lines for each dataset
-    fits = [np.polyfit(weeks, values, 1) for values in values_set]
+    fits = [np.polyfit(weeks, values, 1, full=True) for values in values_set]
+
 
     # Data to extrapolate to 52 weeks
-    year = np.linspace(1, 52)  # Default to 50 equally spaced points without specifying a number
-    best_fits = [np.polyval(fit, year) for fit in fits]
+    year = np.linspace(1, 52)
+    best_fits = [np.polyval(fit[0], year) for fit in fits]
 
     # Define distinct line styles and colors
     line_styles = ['-', '--', '-.', ':']  # Solid, dashed, dash-dot, dotted
