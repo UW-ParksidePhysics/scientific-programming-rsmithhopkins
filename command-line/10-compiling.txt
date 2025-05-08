@@ -1,0 +1,17 @@
+Last login: Thu Apr 24 08:24:11 on ttys000
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+Mac619948:~ smith518$ vi hypotenuse.c
+Mac619948:~ smith518$ gcc -c hypotenuse.c -o hypotenuse.o
+Mac619948:~ smith518$ vo calculate_pythagorean_triples.c
+-bash: vo: command not found
+Mac619948:~ smith518$ vi calculate_pythagorean_triples.c
+Mac619948:~ smith518$ vi calulate_pythagorean_triples.c
+Mac619948:~ smith518$ gcc -c calculate_pythagorean_triples.c -o calculate_pythagorean_triples.o
+Mac619948:~ smith518$ gcc hypotenuse.o calculate_pythagorean_triples.o -lm -o triples_c.x
+Mac619948:~ smith518$ git add triples_c.x hypotenuse.c calculate_puthagorean_triple.c
+fatal: not a git repository (or any of the parent directories): .git
+Mac619948:~ smith518$
+
