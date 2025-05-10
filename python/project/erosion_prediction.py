@@ -106,9 +106,6 @@ def transect_usr_best_fit_data():
 if __name__ == '__main__':
     transect_usr_best_fit_data()
 
-import matplotlib.pyplot as plt
-import numpy as np
-
 def transect_dsl_best_fit_data():
     # Defining the data for each pin at transect DSL
     weeks = np.array(list(range(1, 11)))  # 10 weeks (Week 1 to Week 10)
