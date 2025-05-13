@@ -1,1 +1,38 @@
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ cd ~/Documents/scientific-programming-rsmithhopkins
+bash: cd: /c/Users/rsmit/Documents/scientific-programming-rsmithhopkins: No such file or directory
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ cp 3-files.txt backup_files.txt
+cp: cannot stat '3-files.txt': No such file or directory
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ touch 3-files.txt
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ cp 3-files.txt
+cp: missing destination file operand after '3-files.txt'
+Try 'cp --help' for more information.
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ touch backup_files.txt
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ mv backup_files.txt renamed_files.txt
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ rm renamed_files.txt
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ mkdir practice_dictionary
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ touch shopping_list.txt
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ mv shopping_list.txt parctice_dictionary/
+mv: cannot move 'shopping_list.txt' to 'parctice_dictionary/': No such file or directory
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$
 

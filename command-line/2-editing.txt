@@ -1,4 +1,30 @@
-import subprocess
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ cd ~/Documents
 
-# Use the touch command to create an empty file
-subprocess.run(['touch', 'example.txt'])
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ touch notes.txt
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ vi notes.txt
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ cat notes.txt
+This is my first file created in the terminal.
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ touch shopping_list.txt
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ vi shopping_list.txt
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ cat shopping_list.txt
+apples
+bread
+milk
+coffee
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ ^C
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents

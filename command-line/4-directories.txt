@@ -1,1 +1,43 @@
 
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~
+$ cd ~/Documents
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ mkdir lesson4-practice
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ mkdir -p lesson4-practice/data/2025
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ cd ~/Documents
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ find lesson4-practice type d
+lesson4-practice
+lesson4-practice/data
+lesson4-practice/data/2025
+find: ‘type’: No such file or directory
+find: ‘d’: No such file or directory
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ rmdir lesson4-practice/data/2025
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ mkdir projects
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ mkdir -p projects/frontend projects/backend projects/database
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ find projects -type d
+projects
+projects/backend
+projects/database
+projects/frontend
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$ rm -r projects
+
+rsmit@BOOK-VVLJHN5GBP MINGW64 ~/Documents
+$
+
